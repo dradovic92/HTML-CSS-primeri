@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<table>, initial-scale=1.0">
+    <title>Jelovnik</title>
+</head>
+<body>
+    <table border="1">
+        <thead>
+            <th>
+            <h1>DADO TEA LUNCH SPECIAL</h1>
+            <p>Monday throug Friday</p>
+            <p>11am - 3pm</p>
+            <p>$9.95plus tax</p>
+            <p></p>
+            <p>Includes sandwich, snack and drink</p>
+            </th>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>Order information</b></td> 
+            <tr>
+                <td>
+                    <p></p>
+                 <form>
+                        <label for="name">Name:</label><br>
+                        <input type="text" id="name" name="name"><br>
+                </form>
+                <p></p>
+                <form>
+                    <input type="radio" id="here" name="waytoeat" value="Here">
+                    <label for="here">Here</label><br>
+                    <input type="radio" id="to go" name="waytoeat" value="To go">
+                    <label for="to go">To go</label><br>
+                </form>
+                <p></p>
+            </td>
+            </tr>
+            <tr>
+                <td><b>Sandwiches</b></td>  
+            </tr>
+            <tr>
+                <td>
+                    <p><u>Monday</u></p>
+                    <form>
+                        <input type="radio" id="Tomato Mozzarella" name="sandwich" value="Tomato Mozzarella">
+                        <label for="Tomato Mozzarella">Tomato Mozzarella</label><br>
+                        <input type="radio" id="Chicken Salad" name="sandwich" value="Chicken Salad">
+                        <label for="Chicken Salad">Chicken Salad</label><br>   
+                    </form>
+                    <p><u>Tuesday</u></p>
+                    <form>
+                        <input type="radio" id="Greek Salad" name="sandwich" value="Greek Salad">
+                        <label for="Greek Salad">Greek Salad</label><br>
+                        <input type="radio" id="Toto Wrap" name="sandwich" value="Toto Wrap">
+                        <label for="Toto Wrap">Toto Wrap</label><br>   
+                    </form>
+                    <p><u>Wednesday</u></p>
+                    <form>
+                        <input type="radio" id="Red Pepper Hummus" name="sandwich" value="Red Pepper Hummus">
+                        <label for="Red Pepper Hummus">Red Pepper Hummus</label><br>
+                        <input type="radio" id="Roasted Turkey" name="sandwich" value="Roasted Turkey">
+                        <label for="Roasted Turkey">Roasted Turkey</label><br>   
+                    </form>
+                    <p><u>Thursday</u></p>
+                    <form>
+                        <input type="radio" id="Carrot Ginger Hummus Wrap" name="sandwich" value="Carrot Ginger Hummus Wrap Hummus">
+                        <label for="Carrot Ginger Hummus Wrap">Carrot Ginger Hummus Wrap</label><br>
+                        <input type="radio" id="Egg Salad" name="sandwich" value="Egg Salad">
+                        <label for="Egg Salad">Egg Salad</label><br>   
+                    </form>
+                    <p><u>Friday</u></p>
+                    <form>
+                        <input type="radio" id="Dado Wrap" name="sandwich" value="Dado Wrap">
+                        <label for="Dado Wrap">Dado Wrap</label><br>
+                        <input type="radio" id="Tuna Salad" name="sandwich" value="Tuna Salad">
+                        <label for="Tuna Salad">Tuna Salad</label><br>   
+                    </form>
+                    <hr/>
+                    <form>
+                        <input type="checkbox" id="bread" name="Gluten Free" value="Gluten Free">
+                        <label for="bread">Gluten Free Bread 0.75$ extra</label><br>
+                      </form>
+                      <p></p>
+                </td>  
+                <tr>
+                    <td><b>Snack</b></td>
+                </tr>
+                <tr>
+                    <td>
+                        <p></p>
+                    <form>
+                        <input type="radio" id="apple" name="snack" value="apple">
+                        <label for="apple">Apple</label><br>
+                        <input type="radio" id="banana" name="snack" value="banana">
+                        <label for="banana">Banana</label><br> 
+                        <input type="radio" id="potato chips" name="snack" value="potato chips">
+                        <label for="potato chips">Potato Chips</label><br> 
+                    </form>
+                    <p></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>Drink</b></td>  
+                </tr>
+                <tr>
+                    <td>
+                        <p></p>
+                        <label for="drinks">Choose a drink:</label>
+                        <select id="drinks" name="drinks">
+                        <option value="coffee">Iced Coffee</option>
+                        <option value="peppermint">Organic Peppermint</option>
+                        <option value="greentea">Hot Sencha Green Tea</option>
+                        <option value="blacktea">Hot Keemun Black Tea</option>
+                        </select>
+                        <hr/>
+                    <form>
+                        <input type="checkbox" id="drink" name="Large Drink" value="Large Drink">
+                        <label for="drink">Large Drink 0.75$ extra</label><br>
+                    </form>
+                        <p></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p></p>
+                <button type="button" onclick="submit">Place Order</button>
+                        <p></p>
+                    </td>        
+                </tr>
+            </tr>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>
