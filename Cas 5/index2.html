@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forma</title>
+</head>
+<body>
+    <h1>Forms</h1>
+    <form>
+        <fieldset>
+          <legend>Sign up form</legend>
+          <label for="fname">First name:</label><br>
+          <input type="text" id="fname" name="fname" value=""><br>
+          <label for="lname">Last name:</label><br>
+          <input type="text" id="lname" name="lname" value=""><br><br>
+            <label for="lname">Email:</label>
+          <input type="text" id="email" name="email" value="">
+          <label for="lname">Password:</label>
+          <input type="text" id="password" name="password" value="">
+          <p>What did you like about this gig? <textarea name="message" style="width:200px; height:100px;">
+            Enter your comments...
+            </textarea>
+            <button type="button" onclick="sign up">Sign up</button>
+            <button type="button" onclick="reset">Reset form</button>
+            </p>
+        </fieldset>
+      </form>
+    <hr>
+    <h3>Radio button form</h3>
+    <p>Please select your favorite genre:</p>
+        <form>
+            <input type="radio" id="pop" name="fav_genre" value="pop">
+            <label for="pop">Pop</label>
+            <input type="radio" id="rock" name="fav_genre" value="rock">
+            <label for="rock">Rock</label>
+            <input type="radio" id="jazz" name="fav_genre" value="jazz">
+            <label for="jazz">Jazz</label>
+          </form>
+    <hr>
+    <p>Please select your favorite music service(s)</p>
+    <form>
+        <input type="checkbox" id="service1" name="service1" value="iTunes">
+        <label for="service1">iTunes</label>
+        <input type="checkbox" id="service2" name="service2" value="LiveFM">
+        <label for="service2">LiveFM</label>
+        <input type="checkbox" id="service3" name="service3" value="Spotify">
+        <label for="service3">Spotify</label>
+      </form>
+      <hr>
+      <p>Please select what device do you listen to music on
+        <select id="device" name="device">
+          <option value="iphone">iPhone</option>
+          <option value="android">Android</option>
+          <option value="microsoft">Microsoft</option>
+        </select></p>
+        <hr>
+        <p>Select the instrument you play on 
+            <form>
+                <select name="ins" id="ins" size="3" multiple="multiple">
+                <option value="guitar">Guitar</option>
+                <option value="bass">Bass</option>
+                <option value="drums">Drums</option>
+                <option value="triangle">Triangle</option>
+                </select>
+          </form>
+        </p>
+        <hr>
+        <p>Upload your song 
+            <button type="button" onclick="file">Choose file</button>
+        </p>
+</body>
+</html>
